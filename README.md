@@ -16,15 +16,5 @@ This is a fully responsive *Event Management Website* built using *React.js* and
 ## 🛠 Tech Stack
 
 - *Frontend*: React.js, Tailwind CSS
-- *Backend*: Node.js, Express (if applicable)
-- *Database*: MongoDB / Firebase (if applicable)
 
-## 📷 Screenshots
-
-(Add screenshots or GIFs here)
-
-## ⚡ Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Harsh-Y3/event-management.git
+i am currently working on this project so stay tuned for new upcoming exiting features
