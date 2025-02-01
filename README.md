@@ -1,7 +1,7 @@
 
 
 # 🎉 Event Management Website 
-###(work in progress)
+### (work in progress)
 
 This is a fully responsive *Event Management Website* built using *React.js* and *Tailwind CSS*. It provides a platform to manage and showcase events efficiently.
 
