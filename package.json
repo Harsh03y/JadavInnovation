@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Harsh-Y3.github.io/JadavInnovation"
   "name": "jadavinnovation",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run dev"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "aos": "^2.3.4",
