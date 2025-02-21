@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-blue-300 w-full h-screen m-0 p-0 scroll-smooth">
+      <div className="bg-blue-300 w-full h-screen m-0 p-0 scroll-smooth overflow-hidden">
         {/* navigation bar */}
         <div className="bg-blue-600">
   <nav className="flex flex-col md:flex-row justify-between items-center p-5 h-auto md:h-20">
