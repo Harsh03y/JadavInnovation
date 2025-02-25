@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-blue-300 w-full h-screen m-0 p-0 scroll-smooth overflow-hidden">
+      <div className="bg-blue-300 w-full h-screen m-0 p-0 scroll-smooth">
         {/* navigation bar */}
         <div className="bg-blue-600">
   <nav className="flex flex-col md:flex-row justify-between items-center p-5 h-auto md:h-20">
@@ -70,17 +70,17 @@ function App() {
         {/* Hero Section */}
         <section className="flex flex-col md:flex-row items-center justify-between p-5 md:p-20 md:bg-cover md:bg-center" >
   <motion.div 
-    className="text-left bg-white bg-opacity-75 p-5 rounded-md"
+    className="text-left bg-white w-[800px] z-10 bg-opacity-75 p-5 rounded-md"
     initial={{ opacity: 0, x: 0 }} 
     whileInView={{ opacity: 1, x: 50 }} 
     transition={{ duration: 1 }} 
     viewport={{ once: true }}
   >
     <h2 className="text-2xl md:text-3xl lg:text-4xl text-blue-900">Explore . Finance . Solution</h2>
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Welcome to jadav innovation</h1>
+    <h1 className="text-3xl bg0  md:text-5xl lg:text-4xl font-bold">Welcome to <br /> JADAV INNOVATIONS</h1>
     <button className="border-2 border-black rounded-md bg-blue-200 mt-10 px-4 py-2 md:px-6 md:py-3">Book now</button>
   </motion.div>
-  <div className="relative mt-10 md:mt-0 hidden md:block">
+  <div className="relative mt-10 z-20  md:mt-0 hidden md:block">
     <motion.img
       initial={{ opacity: 0, x: 50 }} 
       whileInView={{ opacity: 1, x: 0 }} 
@@ -88,7 +88,7 @@ function App() {
       viewport={{ once: true }}
       src={compimage}
       alt="Speaker"
-      className="rounded-lg w-full md:w-[800px] h-auto "
+      className="static mr-[202px] rounded-lg w-[800[x] md:w-[800px] h-auto "
     />
   </div>
 </section>
