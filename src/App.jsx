@@ -211,12 +211,13 @@ function App() {
                 <div> 
                   <p className='text-3xl font-bold pt-5'>Digital PR </p>
                   <motion.div 
-                   initial={{ opacity: 0, x: 0 }} whileInView={{width: 50, opacity: 1, x: 0 }} transition={{ duration: 1,}} viewport={{ once: true }}
+                   initial={{ opacity: 0, x: 0 }} 
+                   whileInView={{width: 50, opacity: 1, x: 0 }} transition={{ duration: 1,}} viewport={{ once: true }}
                   className='border-b-[3.5px] pb-2  border-b-blue-900 w-28'></motion.div>
                 </div>
                 <div> 
                   <p className='text-3xl font-bold pt-5'>Theme Parties/ Decorations </p>
-                  <motion.div 
+                 <motion.div 
                    initial={{ opacity: 0, x: 0 }} whileInView={{width: 50, opacity: 1, x: 0 }} transition={{ duration: 1,}} viewport={{ once: true }}
                   className='border-b-[3.5px] pb-2  border-b-blue-900 w-28'></motion.div>
                 </div>
